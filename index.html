@@ -2,50 +2,41 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>Calculadora 2</h1>
     <div class="calculadora">
         <input type="text" id="visor" disabled>
 
-        <div class="teclado">
         <button class="numero" onclick="calculadora.adicionarNumero('7')">7</button>
         <button class="numero" onclick="calculadora.adicionarNumero('8')">8</button>
         <button class="numero" onclick="calculadora.adicionarNumero('9')">9</button>
-        <!-- para adivisão -->
-        <button class="operacao" onclick="calculadora.adicionarOperacao('/')">/</button>
-        
 
-        <!--4 a 6-->
+        <button class="operacao" onclick="calculadora.adicionarOperacao('/')">/</button>
+
         <button class="numero" onclick="calculadora.adicionarNumero('4')">4</button>
         <button class="numero" onclick="calculadora.adicionarNumero('5')">5</button>
         <button class="numero" onclick="calculadora.adicionarNumero('6')">6</button>
 
-            <!--Para multiplicar-->
-            <button class="operacao" onclick="calculadora.adicionarOperacao('*')">*</button>
+        <button class="operacao" onclick="calculadora.adicionarOperacao('*')">*</button>
 
-            <!--do 1 ao 3-->
-            <button class="numero" onclick="calculadora.adicionarNumero('1')">1</button>
-            <button class="numero" onclick="calculadora.adicionarNumero('2')">2</button>
-            <button class="numero" onclick="calculadora.adicionarNumero('3')">3</button>
-            <!--Para adicionar-->
-            <button class="operacao" onclick="calculadora.adicionarOperacao('-')">-</button>
+        <button class="numero" onclick="calculadora.adicionarNumero('1')">1</button>
+        <button class="numero" onclick="calculadora.adicionarNumero('2')">2</button>
+        <button class="numero" onclick="calculadora.adicionarNumero('3')">3</button>
 
-            <button class="numero" onclick="calculadora.adicionarNumero('0')">0</button>
+        <button class="operacao" onclick="calculadora.adicionarOperacao('-')">-</button>
 
-            <!--Zerar a Calculadora-->
-            <button class="operacao" onclick="calculadora.limpar()">C</button>
-            <!--Adicionar-->
-            <button class="operacao" onclick="calculadora.adicionarOperacao('+')">+</button>
+        <button class="numero" onclick="calculadora.adicionarNumero('0')">0</button>
 
-            <!--resultado-->
-            <button class="operacao" onclick="calculadora.resultado()">=</button>
+        <button class="operacao" onclick="calculadora.limpar()">C</button>
 
-            <button class="operacao" onclick="calculadora.adicionarOperacao('.')">.</button>
-            
+        <button class="operacao" onclick="calculadora.adicionarOperacao('+')">+</button>
 
-        </div>
+        <button class="operacao" onclick="calculadora.resultado()">=</button>
+    </div>
         
         
     </div>
